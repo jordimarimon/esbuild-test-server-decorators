@@ -1,0 +1,44 @@
+{
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "rootDir": "./src",
+        "target": "es2017",
+        "module": "es2020",
+        "outDir": "dist-ts",
+        "lib": [
+            "es2020",
+            "dom",
+            "dom.iterable",
+            "ESNext.Intl"
+        ],
+        "plugins": [],
+        "composite": false,
+        "removeComments": true,
+        "preserveSymlinks": true,
+        "declaration": false,
+        "strict": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noFallthroughCasesInSwitch": true,
+        "useUnknownInCatchVariables": true,
+        "exactOptionalPropertyTypes": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": false,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "files": [
+        "src/bar.ts"
+    ]
+}
